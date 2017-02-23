@@ -123,7 +123,7 @@ static CGFloat const oriImageH = 200;
         imageView = [[UIImageView alloc] init];
         
         imageView.clipsToBounds = YES;
-        imageView.contentMode = UIViewContentModeScaleAspectFill;
+        imageView.contentMode = UIViewContentModeScaleAspectFit;
         
         [self insertSubview:imageView atIndex:0];
         
